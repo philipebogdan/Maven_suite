@@ -8,6 +8,18 @@
   <packaging>pom</packaging>
   <name>Aggregator Project</name>
   
+   <modules>
+    <module>project1</module>
+    <module>project2</module>
+    <module>project3</module>
+    <module>project4</module>
+    <module>project5</module>
+    <module>project6</module>
+    <module>project7</module>
+    <module>project8</module>
+    <module>project9</module>
+    <module>project10</module>
+   </modules>
 
   <distributionManagement>
     <repository>
