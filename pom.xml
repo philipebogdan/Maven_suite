@@ -10,7 +10,7 @@
   
 
   <distributionManagement>
-    < <repository>
+    <repository>
         <id>central</id>
         <name>DESKTOP-CNS836N-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
