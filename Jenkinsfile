@@ -23,7 +23,7 @@ pipeline {
             
           //def baseJobName = env.JOB_NAME.tokenize("/")[0].trim()
 	      println "This is the Job name: " + baseJobName
-          buildInfo = rtMaven.run pom: 'pom.xml', goals: " -U clean install -pl ${baseJobName} -Dmaven.test.skip=true -Dmaven.repo.local=.m2 -Drevision=env.BUILD_NUMBER-SNAPSHOT"
+          buildInfo = rtMaven.run pom: 'pom.xml', goals: " -U clean install -pl ${thisJob} -Dmaven.test.skip=true -Dmaven.repo.local=.m2 -Drevision=env.BUILD_NUMBER-SNAPSHOT"
 		}
 	  }
     }
