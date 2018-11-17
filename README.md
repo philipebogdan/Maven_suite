@@ -1,2 +1,2 @@
 # Maven_suite
-test4
+test ssh
