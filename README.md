@@ -1,2 +1,2 @@
 # Maven_suite
-test1
+test2
